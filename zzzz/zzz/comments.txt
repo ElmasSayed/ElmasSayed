@@ -1,0 +1,67 @@
+          <!--<div class='col-md-6 slide-1-logo'>
+                            <img src='img/slide1/tab-logo.png' class='mainimg btn-circle btn-logo'>
+                        </div>-->
+
+<!--<button type="button" class="btn btn-danger btn-circle btn-proj">
+                    <i class="glyphicon glyphicon-heart">Bismillah</i>
+                </button>-->
+    
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></scripts>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>-->
+<!--<link rel="stylesheet" href="http://s.mlcdn.co/animate.css">-->
+ <!--<nav>
+    <ul  class="navigation">
+        <li data-slide='1'><a href="#"><span class="glyphicon glyphicon-home">Home</span></a></li>
+        <li data-slide='2'><a href="#"><span class="glyphicon glyphicon-user">About Tab</span></a></li>
+        <li data-slide='3'><a href="#"><span class="glyphicon glyphicon-folder-open">Projects</span></a></li>
+        <li data-slide='4'><a href="#"><span class="glyphicon glyphicon-random">Contact</span></a></li>
+        <li data-slide='5'><a href="#"><span class="glyphicon glyphicon-user"></span>TABlog</a></li>
+    </ul>
+</nav>-->
+
+Parallax Structure
+1) Fixed Background, Scrolling Body (ok-studios.de,themes.tvda.eu/demo/kutcherstudio)
+2) Slow Element (jason-kenny.com, unfold.no, apple.com/macbook)
+3) Landing Elements (apple.com/macbook, streamlineicons.com, mynameismathieu.com/wow)
+4) Multiple Directional Elements (mainequarterly.com/thoreau, carousel.dropbox.com)
+5) Mouse Movements (stephband.info/jparallex, alquimiawrg.com, travisneilson.com/rootbeer-tasting)
+6) Thumbnailing (tympanus.net/codrops)
+
+
+SliderBox
+@keyframes kfSliderBox{
+    0%{
+        left: 0px; 
+    }
+    /*(4s pause * 100 / animation-duration)*/
+    16%{
+        left: 0px; //pause
+    }
+    /*(5th sec * 100 / animation-duration)*/
+    20%{
+        left: -700px; 
+    }
+    /*(9th sec * 100 / animation-duration)*/
+    36%{
+        left: -700px; 
+    }
+    /*(13th sec * 100 / animation-duration)*/
+    52%{
+        left: -1400px; 
+    }
+    /*(17th sec * 100 / animation-duration)*/
+    68%{
+        left: -1400px; 
+    }
+    /*(21th sec * 100 / animation-duration)*/
+    84%{
+        left: -2800px; 
+    }
+    /*(25th sec * 100 / animation-duration)*/
+    100%{
+        left: -3500px; 
+    }
+}
