@@ -98,7 +98,7 @@ ol.type li a:hover {
 .item {
     width: 300px;
     height: 250px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .portfolio-item .hover-bg {
