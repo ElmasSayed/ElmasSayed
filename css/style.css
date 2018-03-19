@@ -567,7 +567,7 @@ label {
 }
 
 .social-icons {
-    text-align: left;
+    text-align: center;
     display: inline-block;
     margin: 0 20px;
     font-size: 50px;
@@ -614,11 +614,10 @@ a:focus {
 }
 
 .footer-text {
-    background-color: #282828;
+    background-color: black;
     text-align: center;
     width: 100%;
-    /*color: #438DE1;*/
-    color:#ffe9ec;
+    color: #438DE1;
 }
 
 input {
