@@ -614,10 +614,11 @@ a:focus {
 }
 
 .footer-text {
-    background-color: black;
+    background-color: #282828;
     text-align: center;
     width: 100%;
-    color: #438DE1;
+    /*color: #438DE1;*/
+    color:#ffe9ec;
 }
 
 input {
