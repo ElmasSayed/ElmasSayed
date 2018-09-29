@@ -88,7 +88,7 @@ ol.type li a:hover {
 .portfolio-item {
     margin: 20px;
     /*padding-left: 20px;*/
-    width: 300px;
+    width: 375px;
     height: 250px;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.25);
     /*box-shadow: 5px 5px 5px 10px #888888;*/
@@ -96,7 +96,7 @@ ol.type li a:hover {
 }
 
 .item {
-    width: 300px;
+    width: 375px;
     height: 250px;
     border-radius: 2px;
 }
